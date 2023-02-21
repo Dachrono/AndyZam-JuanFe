@@ -15,14 +15,18 @@
 
     <form id="survey-form" action="">
     <label for = "name" id="name-label"> name </label>
-    <input id="name" type="text" required> 
+    <input id="name" type="text" placeholder="Name" required> 
 
     <label for = "email" id="email-label"> email </label>
-    <input id="email" type="email" required> 
+    <input id="email" type="email" placeholder="E-mail" required> 
 
     <label for = "email" id="number-label"> number </label>
-    <input type="number" id="number" min="0" max="8" required>
-      
+    <input type="number" id="number" min="0" max="8" placeholder="Number" required>
+    
+    <select name="" id="dropdown">
+      <option value="value" selected>first option</option>
+      <option value="value">Second Option</option>
+    </select>
 
     </form>
     <script  src="js/index.js"></script>
